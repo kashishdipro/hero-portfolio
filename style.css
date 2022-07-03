@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .kashish{
     color: orange;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +38,30 @@ section{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-title{
+    text-align: center;
+}
+.experience-container{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+#experience-full{
+    border-left: 7px solid tomato;
+    border-radius: 0 10px 0 10px;
+}
+#experience-baby{
+    border-left: 7px solid blueviolet;
+    border-radius: 0 10px 0 10px;
+}
+footer p{
+    text-align: center;
 }
